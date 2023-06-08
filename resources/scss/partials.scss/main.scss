@@ -1,0 +1,57 @@
+#jumbotron{
+    background-image: url('/public/src/img/jumbotron.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.box{
+    background-color: #1C1C1C; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.etichetta{
+    position: absolute;
+    top: -30px;
+    left: 200px;
+    background-color: #1480ED;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.carta{
+    width: calc(100% / 6 - 10px);
+    margin-bottom: 30px;
+    div{
+        width: 183px;
+        height: 183px;
+        margin-bottom: 5px;
+        img{
+            width: 100%;
+            aspect-ratio: 1;
+        }
+    } 
+}
+
+ #button{
+     position: absolute;
+         bottom: 50px;
+         left: 50%;
+         transform: translateX(-50%);
+         background-color: #1480ED;
+         padding: 10px;
+         padding-left: 50px;
+         padding-right: 50px;
+         color: white;
+ }
+
